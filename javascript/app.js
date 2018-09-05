@@ -1,18 +1,22 @@
 window.onload = function() {
-    var Minute = 1;
-    var sec = 60;
+    var Minute = 0;
+    var sec = 10;
     setInterval(function() {
       document.getElementById("timer").innerHTML = Minute + " : " + sec;
       sec--;
-      if (sec == 60) {
-        Minute--;
-        sec = 60;
+      if (sec == 0) {
         if (Minute == 0) {
           Minute = 0;
         }
       }
     }, 1000);
   }
+
+// COULDNT GET THIS CODE TO RUN PLEASE TELL ME WHERE i WENT WRONG: if (seconds ===0) { stop(); alert("Time Up!"); } } function stop() { clearInterval(intervalId); } run();
+
+
+
+
 
 function Review(){
 

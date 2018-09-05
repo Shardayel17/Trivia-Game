@@ -10,7 +10,7 @@ body {
     margin-left: 15PX;
     width: 650PX;
     float: left;
-    
+    background: lightcyan;
   }
 
   #button {
