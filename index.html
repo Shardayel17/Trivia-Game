@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="reset/css" href="css/reset.css"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <script type="text/javascript" src="Javascript/app.js"></script>
+    
+   
+    <title>Trivia Game!</title>
+  </head>
+ 
+ 
+ 
+<body>
+
+
+<h1>Trivia Quiz</h1> 
+
+<div>Times up in <span id="timer">01:00</span> Minute!</div>
+
+
+<form id = "TriviaQuiz" name = "TriviaQuiz">
+
+  <p class = "Qs">How many days are in a year?</p>
+<input type ="radio" id="ANSW" name = "Q1" value = "365">365<br>
+<input type ="radio" id="ANSW" name = "Q1" value = "364">364<br>
+ 
+
+<p class = "Qs">How many days legs does a bird have?</p>
+<input type ="radio" id="ANSW" name = "Q2" value = "2">2<br>
+<input type ="radio" id="ANSW" name = "Q2" value = "4">4<br>
+
+<p class = "Qs">How many planets in our solar system?</p>
+<input type ="radio" id="ANSW" name = "Q3" value = "8">8<br>
+<input type ="radio" id="ANSW" name = "Q3" value = "9">9<br>
+
+<p class = "Qs">How many letters in the alphabet?</p>
+<input type ="radio" id="ANSW" name = "Q4" value = "25">25<br>
+<input type ="radio" id="ANSW" name = "Q4" value = "26">26<br>
+
+
+<input id ="button" type = "button" value = "Sumbit Quiz" onclick = "Review();">
+</form>
+
+<div id = "otherstuff">
+<p id = "Correct"> </p>
+</div>
+</body>
+</html>
